@@ -33,6 +33,7 @@ export default function Filters ({ sort, setSort, genre, setGenre, developer, se
                         // defaultValue="female"
                         name="radio-buttons-group"
                     >
+                        <FormControlLabel value="" control={<Radio />} label="All" />
                         <FormControlLabel value="RPG" control={<Radio />} label="RPG" />
                         <FormControlLabel value="FPS" control={<Radio />} label="FPS" />
                     </RadioGroup>
@@ -45,6 +46,7 @@ export default function Filters ({ sort, setSort, genre, setGenre, developer, se
                         // defaultValue="female"
                         name="radio-buttons-group"
                     >
+                        <FormControlLabel value="" control={<Radio />} label="All" />
                         <FormControlLabel value="CD Projekt Red" control={<Radio />} label="CD Projekt Red" />
                         <FormControlLabel value="Ubisoft" control={<Radio />} label="Ubisoft" />
                         <FormControlLabel value="Treyarch" control={<Radio />} label="Treyarch" />
